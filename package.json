@@ -5,12 +5,37 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "format": "prettier  --list-different --write .",
     "generate": "nuxt generate",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "postinstall": "nuxt prepare",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "start": "node .output/server/index.mjs",
+    "test": "exit 0",
+    "typecheck": "nuxi typecheck",
+    "validate": "npm run format && npm run lint:fix && npm run typecheck && npm test"
   },
+  "packageManager": "pnpm@10.12.1",
   "dependencies": {
     "nuxt": "^3.17.5",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/uil": "^1.2.3",
+    "@lttr/nuxt-config-eslint": "^0.3.0",
+    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.13.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxtjs/plausible": "^1.2.0",
+    "@nuxtjs/seo": "^3.0.3",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "@vueuse/core": "^13.3.0",
+    "@vueuse/nuxt": "^13.3.0",
+    "eslint": "^9.29.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^2.2.10"
   }
 }
