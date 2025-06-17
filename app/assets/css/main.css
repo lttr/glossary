@@ -1,1 +1,4 @@
-/* Add your custom styles here */
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+@source "../../../content";

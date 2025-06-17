@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
   modules: [
+    "@nuxt/ui-pro",
+    "@nuxt/content",
     "@nuxt/eslint",
     "@nuxt/fonts",
     "@nuxt/icon",
@@ -15,12 +17,16 @@ export default defineNuxtConfig({
     },
   ],
   devtools: { enabled: true },
+  css: ["~/assets/css/main.css"],
   site: {
-    url: "https://example.com",
-    name: "Website name",
+    url: "https://glossary.lttr.cz",
+    name: "Glossary with technical jargon",
     description: "Website description",
     defaultLocale: "en",
     indexable: false,
+  },
+  content: {
+    experimental: { nativeSqlite: true },
   },
   future: {
     compatibilityVersion: 4,
@@ -40,6 +46,4 @@ export default defineNuxtConfig({
     ignoredHostnames: ["localhost"],
     apiHost: "https://plausible.lttr.cz",
   },
-  // Custom styles
-  css: ["~/assets/css/main.css"],
 })
