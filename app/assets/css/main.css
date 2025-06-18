@@ -4,7 +4,7 @@
 @source "../../../content";
 
 @theme {
-  --font-sans: "Public Sans", sans-serif;
+  --font-sans: "DM Serif Text", sans-serif;
   --font-display: "Lakki Reddy", sans-serif;
   --color-mandarin: #882222;
   --color-ghosty: #eebbbb;
@@ -44,4 +44,8 @@
 
 .brand-font-family {
   font-family: "Lakki Reddy", sans-serif;
+}
+
+.body-font-family {
+  font-family: "DM Serif Text", sans-serif;
 }
