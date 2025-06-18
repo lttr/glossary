@@ -5,4 +5,43 @@
 
 @theme {
   --font-sans: "Public Sans", sans-serif;
+  --font-display: "Lakki Reddy", sans-serif;
+  --color-mandarin: #882222;
+  --color-ghosty: #eebbbb;
+
+  --color-mandarin-950: oklch(0.21 0.07 25.4);
+  --color-mandarin-900: oklch(0.284 0.094 25.4);
+  --color-mandarin-800: oklch(0.358 0.119 25.4);
+  --color-mandarin-700: oklch(0.432 0.144 25.4);
+  --color-mandarin-600: oklch(0.506 0.168 25.4);
+  --color-mandarin-500: oklch(0.58 0.193 25.4);
+  --color-mandarin-400: oklch(0.654 0.19 25.4);
+  --color-mandarin-300: oklch(0.728 0.137 25.4);
+  --color-mandarin-200: oklch(0.802 0.093 25.4);
+  --color-mandarin-100: oklch(0.876 0.054 25.4);
+  --color-mandarin-50: oklch(0.95 0.02 25.4);
+}
+
+:root {
+  --ui-color-mandarin-950: oklch(0.21 0.07 25.4);
+  --ui-color-mandarin-900: oklch(0.284 0.094 25.4);
+  --ui-color-mandarin-800: oklch(0.358 0.119 25.4);
+  --ui-color-mandarin-700: oklch(0.432 0.144 25.4);
+  --ui-color-mandarin-600: oklch(0.506 0.168 25.4);
+  --ui-color-mandarin-500: oklch(0.58 0.193 25.4);
+  --ui-color-mandarin-400: oklch(0.654 0.19 25.4);
+  --ui-color-mandarin-300: oklch(0.728 0.137 25.4);
+  --ui-color-mandarin-200: oklch(0.802 0.093 25.4);
+  --ui-color-mandarin-100: oklch(0.876 0.054 25.4);
+  --ui-color-mandarin-50: oklch(0.95 0.02 25.4);
+
+  --ui-primary: var(--ui-color-primary-600);
+}
+
+.dark {
+  --ui-primary: var(--ui-color-primary-400);
+}
+
+.brand-font-family {
+  font-family: "Lakki Reddy", sans-serif;
 }
