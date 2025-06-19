@@ -2,3 +2,9 @@ providers = ["node"]
 
 [variables]
 NIXPACKS_NODE_VERSION = '22'
+
+[phases.build]
+cmds = ["pnpm run build"]
+
+[start]
+cmd = "pnpm start"
