@@ -31,14 +31,14 @@
 </template>
 
 <script setup lang="ts">
-const items = computed(() => [
-  {
-    label: "AI",
-    to: "/ai",
-  },
-  {
-    label: "Web performance",
-    to: "/web-performance",
-  },
-])
+import type { ContentNavigationItem } from "@nuxt/content"
+
+const navigation = inject<Ref<ContentNavigationItem[]>>("navigation")
+
+const items = computed(() =>
+  navigation?.value.map((item) => ({
+    to: item.path,
+    label: item.title.length < 4 ? item.title.toUpperCase() : item.title,
+  })),
+)
 </script>
