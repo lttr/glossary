@@ -25,9 +25,6 @@ export default defineNuxtConfig({
     defaultLocale: "en",
     indexable: false,
   },
-  content: {
-    experimental: { nativeSqlite: true },
-  },
   future: {
     compatibilityVersion: 4,
   },

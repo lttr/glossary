@@ -1,5 +1,5 @@
 {
-  "name": "@lttr/glossayr",
+  "name": "@lttr/glossary",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "@nuxt/content": "^3.6.0",
     "@nuxt/ui-pro": "^3.1.3",
+    "better-sqlite3": "^11.10.0",
     "nuxt": "^3.17.5",
     "tailwindcss": "^4.1.10",
     "vue": "latest"
