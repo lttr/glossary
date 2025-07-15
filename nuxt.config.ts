@@ -25,6 +25,11 @@ export default defineNuxtConfig({
     defaultLocale: "en",
     indexable: false,
   },
+  content: {
+    preview: {
+      api: "https://glossary.lttr.cz",
+    },
+  },
   future: {
     compatibilityVersion: 4,
   },
