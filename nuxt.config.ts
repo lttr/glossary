@@ -27,7 +27,12 @@ export default defineNuxtConfig({
   },
   content: {
     preview: {
-      api: "https://glossary.lttr.cz",
+      api: "https://api.nuxt.studio",
+      gitInfo: {
+        name: "glossary",
+        owner: "lttr",
+        url: "https://github.com/lttr/glossary",
+      },
     },
   },
   future: {
