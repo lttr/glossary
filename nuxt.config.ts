@@ -35,13 +35,10 @@ export default defineNuxtConfig({
       },
     },
   },
-  future: {
-    compatibilityVersion: 4,
-  },
   experimental: {
     typedPages: true,
   },
-  compatibilityDate: "2025-04-01",
+  compatibilityDate: "2025-07-01",
   eslint: {
     config: {
       nuxt: {
