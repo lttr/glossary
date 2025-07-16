@@ -9,6 +9,7 @@ tags:
 ---
 
 Three pillars of Anthropic for Claude:
+
 - Helpful: strives to perform tasks as well as possible
 - Honest: provides accurate information, doesn't embellish
 - Harmless: isn't offensive and refuses to help with dangerous activities
