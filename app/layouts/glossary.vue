@@ -7,10 +7,6 @@
         <UPage>
           <template #left>
             <UPageAside>
-              <template #top>
-                <UContentSearchButton :collapsed="false" />
-              </template>
-
               <UContentNavigation
                 :navigation="filteredNavigation"
                 highlight

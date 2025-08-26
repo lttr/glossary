@@ -14,6 +14,15 @@
     </template>
 
     <template #right>
+      <ClientOnly>
+        <UContentSearchButton />
+        <UContentSearch
+          v-model:search-term="searchTerm"
+          :files="files"
+          :navigation="navigation"
+          :fuse="{ resultLimit: 42 }"
+        />
+      </ClientOnly>
       <UNavigationMenu
         :items="items"
         variant="pill"
@@ -41,4 +50,14 @@ const items = computed(() =>
     label: item.title.length < 4 ? item.title.toUpperCase() : item.title,
   })),
 )
+
+const { data: files } = await useAsyncData(
+  "search",
+  () => queryCollectionSearchSections("glossary"),
+  {
+    default: () => [],
+  },
+)
+
+const searchTerm = ref("")
 </script>
