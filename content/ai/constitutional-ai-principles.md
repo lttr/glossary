@@ -1,75 +1,32 @@
 ---
 title: Constitutional AI Principles
-date: 2025-06-25
+date: 2025-08-29
 tags:
   - ai
-  - anthropic
-  - openai
-  - google
-  - microsoft
   - principles
   - safety
-  - governance
+  - ethics
 ---
 
-Constitutional AI refers to the approach of embedding explicit ethical principles and values into AI systems through written frameworks that guide model behavior and development. Major AI companies have converged on remarkably similar constitutional frameworks despite different corporate cultures and competitive pressures.
+Constitutional AI is about giving AI systems a set of written principles to follow. Think of it like a code of ethics that guides how AI behaves and gets developed. What's interesting is that most major AI companies have ended up with pretty similar principles, even though they compete with each other.
 
-## Core Shared Principles
+## What Everyone Agrees On
 
-### Human Primacy & Benefit
+Most AI companies seem to agree on a few key ideas. First, AI should help humans rather than replace or harm them. There's also a big focus on safety - companies want to test things thoroughly before releasing them rather than moving fast and breaking things.
 
-AI systems should serve humanity, not replace or harm it. This includes explicit commitments to human oversight, control, and ensuring AI development benefits all people rather than concentrating power or causing harm.
+Transparency matters too. Companies generally believe AI should be explainable and that they should be open about their principles and processes. And there's widespread agreement that AI shouldn't be biased or discriminatory.
 
-### Safety-First Approach
+## Why the Convergence?
 
-Risk assessment and mitigation are prerequisites, not afterthoughts. This involves rigorous testing, monitoring, and safeguards before deployment, with acknowledgment that powerful AI requires proactive safety measures.
+The fact that Google, OpenAI, Microsoft, Anthropic and others have such similar principles probably isn't just marketing speak. It suggests these ideas reflect real technical and social challenges that everyone in the field recognizes.
 
-### Transparency & Accountability
-
-AI systems should be explainable and their development should follow publicly stated principles. This includes commitments to explain AI behavior, decision-making processes, and maintaining governance frameworks.
-
-### Fairness & Non-Discrimination
-
-AI systems should avoid perpetuating bias, discrimination, or harmful stereotypes. They should work fairly across different demographics and use cases.
-
-## Anthropic's HHH Framework
-
-Anthropic's specific implementation focuses on three pillars:
-
-- **Helpful**: Strives to perform tasks as well as possible
-- **Honest**: Provides accurate information, doesn't embellish or hallucinate
-- **Harmless**: Isn't offensive and refuses to help with dangerous activities
-
-These principles are implemented through Anthropic's Constitutional AI approach, which uses AI feedback to evaluate outputs against a defined constitution rather than relying solely on human feedback.
-
-## Industry Convergence
-
-The striking commonality across major AI companies suggests these principles reflect genuine technical and social necessities rather than mere public relations. All frameworks share:
-
-- **Constitutional Approach**: Written principles as governing frameworks
-- **Stakeholder Engagement**: Collaboration with industry, academia, and policymakers
-- **Iterative Development**: Frameworks that evolve as technology advances
-- **Precautionary Principle**: Prioritizing safety over speed of development
+Most companies use some form of written constitution or charter, they engage with outside experts and policymakers, they update their approaches as technology evolves, and they generally prioritize being careful over being first to market.
 
 ## References
 
-### Anthropic
+### Major Companies
 
 - :external-link{text="Claude's Constitution" to="https://www.anthropic.com/news/claudes-constitution"}
-
-### Google/DeepMind
-
 - :external-link{text="Google AI Principles" to="https://ai.google/principles/"}
-- :external-link{text="AI at Google: our principles" to="https://blog.google/technology/ai/ai-principles/"}
-- :external-link{text="Responsibility & Safety - Google DeepMind" to="https://deepmind.google/about/responsibility-safety/"}
-
-### OpenAI
-
 - :external-link{text="OpenAI Charter" to="https://openai.com/charter/"}
-- :external-link{text="Safety & responsibility" to="https://openai.com/safety/"}
-- :external-link{text="Our approach to AI safety" to="https://openai.com/index/our-approach-to-ai-safety/"}
-
-### Microsoft
-
-- :external-link{text="Responsible AI: Ethical policies and practices" to="https://www.microsoft.com/en-us/ai/responsible-ai"}
-- :external-link{text="Responsible AI Principles and Approach" to="https://www.microsoft.com/en-us/ai/principles-and-approach"}
+- :external-link{text="Microsoft Responsible AI" to="https://www.microsoft.com/en-us/ai/responsible-ai"}
